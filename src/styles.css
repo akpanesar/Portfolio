@@ -17,3 +17,6 @@ img {
   display: block;
   margin: 0 auto;
 }
+.btn {
+  background-color: var(--primary-color);
+}
