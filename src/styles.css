@@ -1,7 +1,13 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #e2dcdc;
+  --secondary-color: #d4f5e7;
+  --third-color: #385170;
+  --text-color: #142d4c;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  color: var(--text-color);
 }
 .hero {
   font-family: "Work Sans", sans-serif;
@@ -13,11 +19,36 @@ h1 {
   font-weight: 700;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
 .btn {
-  background-color: var(--primary-color);
+  background-color: var(--third-color);
   color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+  cursor: pointer;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+@media (max-width: 576px) {
+  .row {
+    padding: 5px;
+  }
+  button {
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  h1,
+  p {
+    text-align: center !important;
+  }
 }
