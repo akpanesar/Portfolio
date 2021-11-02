@@ -1,7 +1,19 @@
 :root {
-  font-family: "Dancing Script", cursive;
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.hero {
   font-family: "Work Sans", sans-serif;
+  background-color: var(--secondary-color);
+  text-align: center;
 }
 h1 {
-  color: red;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
