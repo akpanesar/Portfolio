@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #e2dcdc;
-  --secondary-color: #d4f5e7;
+  --primary-color: #f2e9e4;
+  --secondary-color: #ffddd2;
   --third-color: #385170;
   --text-color: #142d4c;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -8,6 +8,11 @@
 
 body {
   color: var(--text-color);
+}
+.aboutpage {
+  padding: 50px;
+  margin: 50px;
+  background-color: var(--secondary-color);
 }
 .hero {
   font-family: "Work Sans", sans-serif;
@@ -17,6 +22,13 @@ body {
 h1 {
   font-family: "Dancing Script", cursive;
   font-weight: 700;
+  font-size: 64px;
+}
+h2 {
+  font-size: 26px;
+}
+p {
+  font-size: 18px;
 }
 
 .btn {
@@ -50,5 +62,9 @@ h1 {
   h1,
   p {
     text-align: center !important;
+  }
+
+  h1 {
+    font-size: 50px;
   }
 }
