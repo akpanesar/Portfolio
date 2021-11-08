@@ -9,16 +9,6 @@
 body {
   color: var(--text-color);
 }
-.aboutpage {
-  padding: 50px;
-  margin: 50px;
-  background-color: var(--secondary-color);
-}
-.hero {
-  font-family: "Work Sans", sans-serif;
-  background-color: var(--secondary-color);
-  text-align: center;
-}
 h1 {
   font-family: "Dancing Script", cursive;
   font-weight: 700;
@@ -31,6 +21,20 @@ p {
   font-size: 18px;
 }
 
+.nav-link {
+  color: var(--text-color) !important;
+}
+.hero {
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+.aboutpage {
+  padding: 50px !important;
+  margin: 50px;
+  box-shadow: var(--box-shadow);
+  background: var(--secondary-color);
+}
 .btn {
   background-color: var(--third-color);
   color: var(--secondary-color);
@@ -41,15 +45,43 @@ p {
   color: var(--third-color);
   cursor: pointer;
 }
-
 .alignLeft {
   text-align: left;
 }
-
 .alignRight {
   text-align: right;
 }
+.contact-form {
+  border: solid 1px var(--third-color);
+  border-radius: 5px;
+  padding: 20px;
+}
+.contactBox {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+  background: var(--secondary-color);
+}
 
+.email-link,
+p a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 22px;
+  transition: all 100ms ease-in-out;
+}
+.email-link:hover,
+p a:hover {
+  color: var(--third-color);
+}
+.social-links a {
+  margin: 0 20px;
+  color: var(--third-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 576px) {
   .row {
     padding: 5px;
